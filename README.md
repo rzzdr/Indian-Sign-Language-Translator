@@ -28,17 +28,11 @@ If any hands are found in the frame, an extended bounding box is created around 
 4. **Sign Recognition** 
 : The processed input is passed through a [SqueezeNet](https://arxiv.org/abs/1602.07360) model trained (via Transfer Learning) on a synthesized and cleaned Indian Sign Language dataset consisting of 10 classes, and ~2300+ images per class.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/39513876/119128821-c54ad600-ba53-11eb-94b1-25727c70800b.jpg" width="500">
-</p>
-
-<div align="center"> <i>Hand Detection performed on the Live Feed Input</i> </div>
-</n>
 
 The work performed is divided into the following **folders** :
 
 ### Main App
-The [App](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/App) section consists of the files required to run the standalone webcam implementation of the translator. Contains :
+The [App](https://github.com/rzzdr/Indian-Sign-Language-Translator/tree/main/App) section consists of the files required to run the standalone webcam implementation of the translator. Contains :
 - The trained model
 - The hand segmentation network
 - Preprocessing scripts
@@ -46,15 +40,15 @@ The [App](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translato
 
 
 ### Dataset Synthesis
-Covers the [scripts](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Dataset_Synthesis) used in :
+Covers the [scripts](https://github.com/rzzdr/Indian-Sign-Language-Translator/tree/main/Dataset_Synthesis) used in :
 - Creating new data, via modifications on brightness, clarity and picture quality (Synthesis)
 - Cleaning noisy generated data from the previous step, by using the YOLO-v3 Hand Detection Network (Cleaning)
 
 ### Dataset Preprocessing
-Contains the [scripts](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Dataset_Preprocessing) used in order to perform pre-processing on the input dataset, including image upscaling, skin segmentation and hand centralization. These tasks are performed before entering the image dataset into the neural network.
+Contains the [scripts](https://github.com/rzzdr/Indian-Sign-Language-Translator/tree/main/Dataset_Preprocessing) used in order to perform pre-processing on the input dataset, including image upscaling, skin segmentation and hand centralization. These tasks are performed before entering the image dataset into the neural network.
 
 ### Model Training
-Consists of the [notebook](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Model_Training) used in order to train and save the SqueezeNet model used for the project. Originally made in Colab.
+Consists of the [notebook](https://github.com/rzzdr/Indian-Sign-Language-Translator/tree/main/Model_Training) used in order to train and save the SqueezeNet model used for the project. Originally made in Colab.
 
 ### Dependencies
 - OpenCV
@@ -65,17 +59,6 @@ Consists of the [notebook](https://github.com/AbhishekSinghDhadwal/Indian-Sign-L
 - ImageAI
 
 The specific versions are mentioned in requirements.txt
-
-### Contributors:
-
-This translator was originally created as part of our Final Year Project, consisting of the following members -
-
-| Name | GithubID |
-| ----------- | ----------- |
-| Abhishek Singh Dhadwal | [AbhishekSinghDhadwal](https://github.com/AbhishekSinghDhadwal) |
-| Saurabh Pujari | [saurabh0719](https://github.com/saurabh0719) | 
-| Kopal Bhatnagar | [kopalbhatnagar05](https://github.com/kopalbhatnagar05) | 
-| Yash Kumar | [yashKumar2412](https://github.com/yashKumar2412) | 
 
 #### Credits:
 1. Jeanvit, for the skin segmentation algorithm [code](https://github.com/Jeanvit/PySkinDetection)
