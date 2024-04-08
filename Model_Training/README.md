@@ -1,11 +1,11 @@
 # SqueezeNet Model Trainng
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) &nbsp; 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/blob/main/Model_Training/ModelTraining_Squeezenet.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MHp71fIdKCMgfkgO_KWvVmaB-01FIX05?usp=sharing)
 
 The attached notebook has been used to train the squeezenet model used in our project using Transfer Learning. Originally made for training via Colab, can be run locally by changing the required DIRs.
 
-We utilized the SqueezeNet model for our purposes as it outperformed its peers under various tests in the following categories (described in section 4.5 of the [thesis](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/blob/main/Thesis/FYReport.pdf)) :
+We utilized the SqueezeNet model for our purposes as it outperformed its peers under various tests.
 
 1.The accuracy provided
 
