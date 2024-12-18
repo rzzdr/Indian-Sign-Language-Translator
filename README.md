@@ -63,5 +63,3 @@ The specific versions are mentioned in requirements.txt
 #### Credits:
 1. Jeanvit, for the skin segmentation algorithm [code](https://github.com/Jeanvit/PySkinDetection)
 2. Cansik, for the hand detection [NN](https://github.com/cansik/yolo-hand-detection/)
-
-For further details on the implementation, kindly refer to the **Thesis** folder containing both the project report and the final presentation.
